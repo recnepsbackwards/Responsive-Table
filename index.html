@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Responsive Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="volunteer-table">
+        <div id="data-table-container_wrapper" class="dataTables_wrapper form-inline" role="grid">
+            <div id="data-table-container_length" class="dataTables_length"><label><select size="1" name="data-table-container_length" aria-controls="data-table-container"><option value="10">10</option><option value="25" selected="selected">25</option><option value="50">50</option><option value="100">100</option></select> records per page</label></div>
+            <div
+                class="dataTables_filter" id="data-table-container_filter"><label>Search: <input type="text" aria-controls="data-table-container"></label></div>
+            <table cellpadding="0" cellspacing="0" border="0" class="display table table-bordered table-striped dataTable" id="data-table-container" aria-describedby="data-table-container_info">
+                <thead>
+                    <tr role="row">
+                        <th class="center sorting_asc" tabindex="0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Organization: activate to sort column descending" style="width: 115px;">Organization</th>
+                        <th class="center sorting" tabindex="0" rowspan="1" colspan="1" aria-label="Event Name: activate to sort column ascending" style="width: 115px;">Event Name</th>
+                        <th class="center sorting" tabindex="0" rowspan="1" colspan="1" aria-label="Location: activate to sort column ascending" style="width: 115px;">Location</th>
+                        <th class="center sorting" tabindex="0" rowspan="1" colspan="1" aria-label="Start: activate to sort column ascending" style="width: 115px;">Start</th>
+                        <th class="center sorting" tabindex="0" rowspan="1" colspan="1" aria-label="End: activate to sort column ascending" style="width: 115px;">End</th>
+                        <th class="center sorting" tabindex="0" rowspan="1" colspan="1" aria-label="Contact: activate to sort column ascending" style="width: 116px;">Contact</th>
+                    </tr>
+                </thead>
+                <tbody role="alert" aria-live="polite" aria-relevant="all">
+                    <tr class="odd">
+                        <td class="center sorting_1">Braille Institute</td>
+                        <td class="center">Volunteer Instructor</td>
+                        <td class="center">4555 Executive Drive SD 92121</td>
+                        <td class="center">09/06/2016 <br> 1:00 p.m. </td>
+                        <td class="center">Varies <br> 2:30pm</td>
+                        <td class="center">Rosie Rascon<br><a href="mailto:rrascon@brailleinstitute.org">rrascon@brailleinstitute.org</a><br>858-404-5009</td>
+                    </tr>
+                    <tr class="even">
+                        <td class="center sorting_1">Cardiff SEA</td>
+                        <td class="center">Cardiff SEA Gala</td>
+                        <td class="center">Rancho Santa Fe Garden Club</td>
+                        <td class="center">3/25/2017 5:30 p.m.</td>
+                        <td class="center">3/25/2017 8:30 p.m.</td>
+                        <td class="center">Joy Sheppard<br><a href="mailto:joyshep@cox.net">joyshep@cox.net</a><br>760-579-8585</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="center sorting_1">City Heights Community Development Corporation</td>
+                        <td class="center">Afterschool Tutoring </td>
+                        <td class="center">Metro Villa Aprartments 4071 39th Street, San Diego, CA 92105</td>
+                        <td class="center">2:30 p.m. </td>
+                        <td class="center">6:30 p.m. <br> (This is an ongoing opportunity) </td>
+                        <td class="center">Waunda Anderson <br><a href="mailto:Associate2@cityheightscdc.org">Associate2@cityheightscdc.org</a><br>619-961-1078</td>
+                    </tr>
+                    <tr class="even">
+                        <td class="center sorting_1">County of San Diego Dept of Parks &amp; Recreation</td>
+                        <td class="center">San Elijo Lagoon Nature Center Visitor Services</td>
+                        <td class="center">San Elijo Lagoon Nature Center</td>
+                        <td class="center">Ongoing Opportunity</td>
+                        <td class="center">Ongoing opportunity </td>
+                        <td class="center">Cheryl Wegner<br><a href="mailto:cheryl.wegner@sdcounty.ca.gov">cheryl.wegner@sdcounty.ca.gov</a><br>858-966-1335</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="center sorting_1">County of San Diego Dept of Parks &amp; Recreation</td>
+                        <td class="center">Invasion of the Invasives - Assist park rangers with invasive weeds</td>
+                        <td class="center">Goodan Ranch Sycamore Canyon Open Space Preserve</td>
+                        <td class="center">Ongoing Opportunity in Spring</td>
+                        <td class="center">Ongoing Opportunity in Spring</td>
+                        <td class="center">Cheryl Wegner<br><a href="mailto:cheryl.wegner@sdcounty.ca.gov">cheryl.wegner@sdcounty.ca.gov</a><br>858-966-1335</td>
+                    </tr>
+                    <tr class="even">
+                        <td class="center sorting_1">CYT San Diego</td>
+                        <td class="center">Graphic Design Student Volunteers</td>
+                        <td class="center">El Cajon</td>
+                        <td class="center">Ongoing Opportunity </td>
+                        <td class="center">Flexible Hours</td>
+                        <td class="center">Laura Bertagnolli<br><a href="mailto:laura@cytsandiego.org">laura@cytsandiego.org</a><br>619-588-0206</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="center sorting_1">Helen Woodward Animal Center</td>
+                        <td class="center">Foster Parents for Pets</td>
+                        <td class="center">San Diego County</td>
+                        <td class="center">Ongoing Opportunity</td>
+                        <td class="center">Ongoing Opportunity</td>
+                        <td class="center">Michelle Chambers<br><a href="mailto:MichelleC@animalcenter.org">MichelleC@animalcenter.org</a><br>858-756-4117, ext. 366</td>
+                    </tr>
+                    <tr class="even">
+                        <td class="center sorting_1">Kitchens for Good</td>
+                        <td class="center">Project Nourish</td>
+                        <td class="center">404 Euclid Avenue, San Diego, CA 92114</td>
+                        <td class="center">Ongoing Opportunity (Tuesdays through Fridays, multiple shifts available)</td>
+                        <td class="center">Ongoing Opportunity (Tuesdays through Fridays, multiple shifts available)</td>
+                        <td class="center">Nina Holtz<br><a href="mailto:nina@kitchensforgood.org">nina@kitchensforgood.org</a><br>858-472-8413</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="center sorting_1">Neighborhood House Association</td>
+                        <td class="center">Tutors Needed for Disadvantaged Middle School Students</td>
+                        <td class="center">San Diego </td>
+                        <td class="center">Ongoing Opportunity <br> One weekday morning per week </td>
+                        <td class="center">Ongoing opportunity </td>
+                        <td class="center">Eileen Kent<br><a href="mailto:ekent@neighborhoodhouse.org">ekent@neighborhoodhouse.org</a><br>858-715-2642</td>
+                    </tr>
+                    <tr class="even">
+                        <td class="center sorting_1">Neighborhood House Association</td>
+                        <td class="center">Central Kitchen <br> Meal preparation for San Diego County children</td>
+                        <td class="center">Chula Vista </td>
+                        <td class="center">Varies</td>
+                        <td class="center">Ongoing opportunity </td>
+                        <td class="center">Eileen Kent<br>
+                            <a href="mailto:"></a><br>858-715-2642</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="center sorting_1">Neighborhood House Association</td>
+                        <td class="center">Senior Service Center Meal Delivery </td>
+                        <td class="center">Mid-City</td>
+                        <td class="center">Varies mid-morning to early afternoon </td>
+                        <td class="center">Ongoing opportunity </td>
+                        <td class="center">Eileen Kent<br>
+                            <a href="mailto:"></a><br>858-715-2642</td>
+                    </tr>
+                    <tr class="even">
+                        <td class="center sorting_1">Ocean Discovery Institute</td>
+                        <td class="center">Vounteer Assistant Instructor</td>
+                        <td class="center">City Heights</td>
+                        <td class="center">This is an ongoing volunteer opportunity</td>
+                        <td class="center">Varies </td>
+                        <td class="center">Janani Sivasankaran<br>
+                            <a href="mailto:"></a><br></td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="center sorting_1">Pet University</td>
+                        <td class="center">Pet Education </td>
+                        <td class="center">Oceanside, CA.</td>
+                        <td class="center">Varies </td>
+                        <td class="center">Varies </td>
+                        <td class="center">Liza Porterfield<br><a href="mailto:lizaporterfield@live.com">lizaporterfield@live.com</a><br>619-800-1501</td>
+                    </tr>
+                    <tr class="even">
+                        <td class="center sorting_1">Reuben H. Fleet Science Center </td>
+                        <td class="center">Museum Ambassador </td>
+                        <td class="center">Balboa Park </td>
+                        <td class="center">Ongoing Opportunities <br> 9:00 a.m. </td>
+                        <td class="center">6:00 p.m. </td>
+                        <td class="center">Tanja Schroeder<br><a href="mailto:tschroeder@rhfleet.org">tschroeder@rhfleet.org</a><br>619-238-1233</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="center sorting_1">San Diego Museum of Man</td>
+                        <td class="center">California Tower Trekker</td>
+                        <td class="center">San Diego Museum of Man</td>
+                        <td class="center">Various shifts and times available </td>
+                        <td class="center">Contact Sydney Garcia for details</td>
+                        <td class="center">Sydney Garcia<br><a href="mailto:sgarica@museumofman.org">sgarica@museumofman.org</a><br>619-239-2001</td>
+                    </tr>
+                    <tr class="even">
+                        <td class="center sorting_1">San Diego Unified School District</td>
+                        <td class="center">AVID</td>
+                        <td class="center">Varies</td>
+                        <td class="center">Ongoing Opportunity</td>
+                        <td class="center">Ongoing Opportunity</td>
+                        <td class="center">Reuben Harris<br><a href="mailto:rharris@sandi.net">rharris@sandi.net</a><br>619-725-7308</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="center sorting_1">SAY San Diego</td>
+                        <td class="center">Spring Fair</td>
+                        <td class="center">Miller Elementary School in Tierrasanta</td>
+                        <td class="center">3/16/2017 5:00 PM</td>
+                        <td class="center">3/16/2017 7:00 PM</td>
+                        <td class="center">Marion Liszkowski<br><a href="mailto:mliszkowski@saysandiego.org">mliszkowski@saysandiego.org</a><br>858-565-4148, ext. 261</td>
+                    </tr>
+                    <tr class="even">
+                        <td class="center sorting_1">SAY San Diego </td>
+                        <td class="center">Back to School Supply Drive </td>
+                        <td class="center">Varies</td>
+                        <td class="center">Contact Marion Liszkowski for details</td>
+                        <td class="center"></td>
+                        <td class="center">Marion Liszkowski<br><a href="mailto:mliszkowski@saysandiego.org">mliszkowski@saysandiego.org</a><br>858-565-4148, ext. 261</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="center sorting_1">SAY San Diego </td>
+                        <td class="center">Play 4 SAY <br> Various volunteer opportunities exist. Volunteers must be 18 years and over. </td>
+                        <td class="center">Liberty Station <br> Point Loma </td>
+                        <td class="center">7/21/2016</td>
+                        <td class="center">Various start and end times</td>
+                        <td class="center">Marion Liszkowski<br><a href="mailto:mliszkowski@saysandiego.org">mliszkowski@saysandiego.org</a><br>858-565-4148, ext. 261</td>
+                    </tr>
+                    <tr class="even">
+                        <td class="center sorting_1">Sherman Elementary</td>
+                        <td class="center">Volunteer Internship</td>
+                        <td class="center">301 22nd Street, San Diego, CA 92102</td>
+                        <td class="center">Ongoing Opportunity</td>
+                        <td class="center">Ongoing Opportunity</td>
+                        <td class="center">Garden Coordinator<br><a href="mailto:ShermanGrows@gmail.com">ShermanGrows@gmail.com</a><br>858-210-2628</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="center sorting_1">Skinny Gene Project</td>
+                        <td class="center">Volunteer Opportunity</td>
+                        <td class="center"></td>
+                        <td class="center">3/12/2017</td>
+                        <td class="center">3/12/2017</td>
+                        <td class="center">Benjamin Kravetz<br><a href="mailto:prevention@skinnygeneproject.org">prevention@skinnygeneproject.org</a><br>413-835-5894</td>
+                    </tr>
+                    <tr class="even">
+                        <td class="center sorting_1">Torch 1975 Inc</td>
+                        <td class="center">YARD PROJECT TO PROVIDE FREE ORGANIC FOODS TO LOCAL MILITARY FAMILIES</td>
+                        <td class="center">5076 BELLA COLLINA, OCEANSIDE, CA 92056</td>
+                        <td class="center">03/11/2017 8:00am</td>
+                        <td class="center">03/11/2017 5:00pm</td>
+                        <td class="center">Jessica Nguyen<br><a href="mailto:Torchlady1975@gmail.com">Torchlady1975@gmail.com</a><br>949-456-3745</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="center sorting_1">Traveling Stories</td>
+                        <td class="center">El Cajon StoryTent</td>
+                        <td class="center">201 E. Main Street El Cajon, CA 92020</td>
+                        <td class="center">4:30 p.m. <br> Every Thursday </td>
+                        <td class="center">6:30 p.m. </td>
+                        <td class="center">Alyssa Humbert<br><a href="mailto:alyssa@travelingstories.org">alyssa@travelingstories.org</a><br>619-919-5115</td>
+                    </tr>
+                    <tr class="even">
+                        <td class="center sorting_1">Traveling Stories</td>
+                        <td class="center">City Heights StoryTent</td>
+                        <td class="center">4325 Wightman Street San Diego, CA 92105</td>
+                        <td class="center">8:45 a.m. <br> Every Saturday </td>
+                        <td class="center">12:00 p.m. </td>
+                        <td class="center">Alyssa Humbert<br><a href="mailto:alyssa@travelingstories.org">alyssa@travelingstories.org</a><br>619-515-9119</td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="center sorting_1">Traveling Stories</td>
+                        <td class="center">Imperial Beach Story Tent </td>
+                        <td class="center">10 Evergreen Ave. Imperial Beach, CA 92391</td>
+                        <td class="center">3:30 p.m. <br> Every Friday</td>
+                        <td class="center">6:00 p.m. </td>
+                        <td class="center">Alyssa Humbert<br><a href="mailto:alyssa@travelingstories.org">alyssa@travelingstories.org</a><br>619-515-9119</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="dataTables_info" id="data-table-container_info">Showing 1 to 25 of 25 entries</div>
+            <div class="dataTables_paginate paging_bootstrap pagination">
+                <ul>
+                    <li class="prev disabled"><a href="#">← Previous</a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li class="next disabled"><a href="#">Next → </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
